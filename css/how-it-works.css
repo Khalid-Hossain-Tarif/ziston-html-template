@@ -1,0 +1,13 @@
+.below-video-sec {
+    padding-top: 100px;
+}
+.below-video-sec .separator-text {
+    padding: 50px 0 100px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .about-ziston {
+        padding: 0 0 100px !important;
+    }
+}

@@ -1,0 +1,277 @@
+@media only screen and (max-width: 800px) {
+    h2 {
+        font-size: 2.5em;
+        margin: 0.33em 0;
+    }
+    /*Display None*/
+    .main-navbar, .main-header .main-header-right .btn, .latest-listings .slider-cols .col .header-content h3::after, .border, .comment-txt {
+        display: none;
+    }
+
+    /*Header*/
+    .top-header, .main-header {
+        padding: 15px !important;
+    }
+    .top-header-left ul li a span, .top-header-right ul li a span {
+        display: none !important;
+    }
+    .main-header {
+        display: block !important;
+    }
+    .search-icon, .cart-icon {
+        position: absolute;
+        top: 20px;
+    }
+    .search-icon {
+        right: 50px;
+    }
+    .cart-icon {
+        right: 0;
+    }
+    .main-header .main-header-right .item-padding {
+        margin-right: 15px;
+    }
+    .main-header .main-header-right .search-icon i, .main-header .main-header-right .cart-icon i {
+        font-size: 20px;
+    }
+
+    /*Header Banner Slider*/
+    .header-slider .content-block {
+        padding: 220px 0 100px 0;
+    }
+    .header-slider .top-content p.sub-title {
+        font-size: 2em;
+    }
+    .header-slider .top-content h1 {
+        font-size: 3em;
+        margin: 0.67em 0 .33em;
+    }
+    .header-slider .top-content p {
+        font-size: 1em;
+        line-height: 1.7;
+    }
+    .banner-slider-search .form {
+        flex-wrap: wrap;
+    }
+    .banner-slider-search ul.form-inner {
+        display: block;
+    }
+    .banner-slider-search ul li.form-inner-item {
+        width: 51vh;
+    }
+   .banner-slider-search select {
+        border-bottom: 1px solid #d7d3d5;
+    }
+    button.banner-slider-search-btn {
+        height: 65px;
+        margin-top: 10px;
+    }
+    .header-slider .bottom-content .arrow-img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+    }
+    .header-slider .bottom-content {
+        padding-top: 200px;
+    }
+    .below-header-banner {
+        padding: 100px 0 280px 15px;
+        background-position: top center;
+    }
+    .below-header-banner-slider {
+        position: initial;
+        height: auto;
+        width: 100% !important;
+        padding: 60px 0 80px;
+    }
+    .below-header-banner-slider .content-wrapper {
+        position: relative;
+        padding: 50px;
+    }
+    .below-header-banner-slider .content-wrapper:before {
+        width: 5%;
+    }
+
+    /*Popular PLaces*/
+    .popular-places-slider {
+        grid-gap: 50px;
+    }
+    .popular-places-slider h3 {
+        font-size: 2em;
+    }
+
+    /*Food Lovers*/
+    .food-lovers .animated-img {
+        top: 0;
+    }
+    .food-lovers .food-lovers-inner p, .food-lovers .food-lovers-inner h2 {
+        font-size: 2.5em;
+    }
+
+    /*Counter*/
+    .counter {
+        bottom: -600px;
+    }
+    .counter .content-box, .counter .content-box:last-child {
+        padding: 40px 0;
+        border-bottom: 1px solid #d7d3d5;
+        border-right: none;
+    }
+
+    /*Latest Listing*/
+    .latest-listings {
+        margin: 700px 0 100px 0;
+    }
+    .latest-listings .slider-cols {
+        grid-gap: 40px;
+    }
+    .latest-listings .slider-cols .col .header-content h3 {
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    /*Newsletter*/
+    .newsletter {
+        margin-bottom: 100px;
+        padding-left: 15px;
+    }
+    .newsletter .newsletter-bg {
+        height: auto;
+        top: 150px;
+        left: 0;
+        animation: none;
+    }
+    .newsletter .newsletter-inner {
+        flex-wrap: wrap;
+    }
+    .newsletter .right {
+        display: block;
+    }
+    .newsletter .right {
+        flex-wrap: wrap;
+        padding: 80px 0 100px;
+    }
+    .newsletter .btn {
+        padding-top: 30px;
+    }
+
+    /*Testimonials*/
+    .testimonials {
+        padding: 100px 0 100px 0;
+    }
+    .testimonials .testimonials-slider {
+        padding: 100px 15px 60px;
+    }
+    .testimonials .testimonials-slider .slider-inner {
+        grid-gap: 120px;
+    }
+    .testimonials .testimonials-slider .testimonial-box {
+        padding: 20% 10%;
+    }
+    .testimonials .testimonials-slider .author-img {
+        right: 0;
+        top: -60px;
+        left: auto;
+    }
+    .testimonials .testimonials-slider .quote-icon {
+        right: 15px;
+    }
+
+    /*How it Works*/
+    .how-it-works {
+        padding: 100px 0 120px 0;
+    }
+    .video-shape1-animate {
+        right: 0;
+        top: -40px;
+    }
+    .video-block {
+        height: 60vh;
+        padding: 20px 0 !important;
+    }
+    .video-shape2-animate {
+        bottom: -90px;
+        left: 10px;
+    }
+
+    /*Below Video*/
+    .below-video-sec .content-boxes {
+        grid-gap: 40px;
+    }
+    .below-video-sec .content-box {
+        border: 1px solid #fc3c3c33;
+        padding: 40px;
+    }
+    .below-video-sec .content-box h3 {
+        margin: 1.5em 0 1em;
+        font-weight: bold;
+    }
+
+    /*Blogs*/
+    .blog-content-boxes {
+        grid-gap: 300px;
+    }
+    .blog-content {
+        box-shadow: 1px 2px 10px #f2f3f7;
+        padding: 50px 20PX 40PX 30PX;
+    }
+    .blog-heading h3 {
+        font-size: 26px;
+    }
+
+    /*Clients*/
+    .clients {
+        padding: 150px 0 100px;
+    }
+    .clients .clients-logos {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 40px;
+    }
+    .footer .footer-col1 {
+        padding-right: 0;
+    }
+    .footer .footer-col1, .footer .footer-col4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer .footer-col2, .footer .footer-col3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 30px;
+    }
+    .footer .footer-col3 {
+        padding-left: 10%;
+    }
+    .footer .footer-col4 {
+        margin-top: 40px;
+    }
+}
+
+/*------------------------------*/
+@media only screen and (min-width: 1920px) {
+    .below-header-banner {
+        padding: 100px 0 380px 0;
+    }
+    .food-lovers .animated-img {
+        top: -81px !important;
+    }
+    .below-header-banner {
+        padding: 100px 0 380px 0 !important;
+    }
+    .how-it-works {
+        padding: 100px 0 460px 0;
+    }
+    .video-section {
+        margin-bottom: 150px !important;
+    }
+    .video-shape1-animate {
+        right: 260px;
+    }
+    .video-shape2-animate {
+        left: 280px;
+    }
+
+
+
+}
