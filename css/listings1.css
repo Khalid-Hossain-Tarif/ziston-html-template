@@ -69,6 +69,7 @@ nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main
 }
 #listing-submit-btn:hover {
     background-color: #111 !important;
+    color: #fff !important;
 }
 
 .listings1 .latest-listings {
