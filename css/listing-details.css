@@ -416,6 +416,7 @@ nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main
 }
 .get-direction-btn .default-btn:hover {
     background-color: #11161F !important;
+    color: #fff !important;
 }
 
 
