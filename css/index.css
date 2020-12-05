@@ -542,21 +542,6 @@ button.banner-slider-search-btn i {
     right: 20px;
     z-index: 999;
 }
-/*.latest-listings .slider-cols .col .wishlist i {
-    color: #FC3C3C;
-    font-size: 14px;
-}
-.latest-listings .slider-cols .col .wishlist i {
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-animation: all .3s ease;
-}
-.latest-listings .slider-cols .col .wishlist i:hover {
-    color: #FC3C3C;
-}*/
 .latest-listings .slider-cols .col .author-img {
     position: absolute;
     bottom: -16px;
@@ -628,23 +613,6 @@ button.banner-slider-search-btn i {
     flex-wrap: wrap;
     padding-top: 30px;
 }
-/*.latest-listings .col .end-content .dollar h6 {
-    color: #FD3C3D;
-    letter-spacing: 3px;
-}
-.latest-listings .slider-cols .col .main-content .rating a.score {
-    color: #161c26;
-    font-weight: 600;
-    margin-right: 8px;
-}
-.latest-listings .slider-cols .col .rating a i {
-    color: #FD3C3D;
-    font-size: 15px;
-}
-.latest-listings .slider-cols .col .rating a.grey-icon i {
-    color: #828892 !important;
-}*/
-
 
 /*  Newsletter */
 .newsletter {
