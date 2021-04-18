@@ -13,14 +13,14 @@
     position: relative;
     background: #fff;
     box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.07);
-    padding: 100px 0 60px;
+    padding: 180px 0 60px;
     border-radius: 4px;
     overflow: hidden;
     transition: all .3s ease;
 }
 .contact-info-box .icon {
     position: absolute;
-    top: -50px;
+    top: 50px;
     left: 0;
     right: 0;
     text-align: center;
