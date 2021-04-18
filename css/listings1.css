@@ -1,11 +1,6 @@
 nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main-header .main-header-right .cart-icon i  {
     color: #41464E;
 }
-.main-header {
-    box-shadow: 1px 0 16px 0 #ced1d55c;
-}
-
-
 
 .listings1 {
     display: grid;
