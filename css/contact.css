@@ -28,12 +28,12 @@
 .contact-info-box .icon i {
     background: #FC3C3C;
     color: #fff;
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
     text-align: center;
     border-radius: 50%;
-    font-size: 3em;
+    font-size: 2.5em;
     transition: all .3s ease;
 }
 .contact-info-box .content h3 {
