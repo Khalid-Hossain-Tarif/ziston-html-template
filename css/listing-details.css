@@ -4,6 +4,7 @@ nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main
 }
 .main-header {
     box-shadow: 1px 0 16px 0 #ced1d55c;
+    padding: 30px 60px 30px 60px; 
 }
 .rating a.score {
     color: #8288ae;
