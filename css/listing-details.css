@@ -1,9 +1,5 @@
-
-nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main-header .main-header-right .cart-icon i  {
-    color: #41464E;
-}
 .main-header {
-    box-shadow: 1px 0 16px 0 #ced1d55c;
+    background: #11161F;
     padding: 30px 60px 30px 60px; 
 }
 .rating a.score {
@@ -447,6 +443,9 @@ nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main
 
 /*---Responsive---*/
 @media only screen and (max-width: 800px) {
+    .main-header {
+        padding-bottom: 50px !important;
+    }
     .listing-details-contents .contents .left-contents .intro-text p, .listings-comments .comments-details .comments-right-content p {
         text-align: justify;
     }

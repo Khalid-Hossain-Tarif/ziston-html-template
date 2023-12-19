@@ -166,8 +166,8 @@ nav.main-nav-menu ul li a span {
 /* === Mobile Menu ===*/
 .navigation {
     position: absolute;
-    right: 0;
-    top: 9px;
+    translate: 20px;
+    top: 100px;
     height: 50px;
     width: 50%;
     transition: all 0.3s ease-in-out;
@@ -196,7 +196,7 @@ nav.main-nav-menu ul li a span {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #C20505;
+    background-color: #fff;
     transition: all 0.3s ease-in-out;
   }
   .navigation .toggle span:before {
@@ -229,7 +229,8 @@ nav.main-nav-menu ul li a span {
     transition: all 0.3s ease-in-out;
   }
   .navigation ul li a:hover {
-    background-color: #C20505;
+    background-color: #fc3c3c;
+    color: #fff !important;
   }
   .navigation .mobile-submenu {
     display: none;
@@ -246,7 +247,7 @@ nav.main-nav-menu ul li a span {
     content: "";
     position: absolute;
     right: 10px;
-    top: 17px;
+    top: 12px;
     height: 1px;
     width: 10px;
     background: #fff;
@@ -254,6 +255,12 @@ nav.main-nav-menu ul li a span {
   .navigation .mobile-submenu-item.mSactive .mobile-submenu {
     display: block;
     padding: 0 0 0 1rem;
+  }
+
+  @media only screen and (min-width: 801px) {
+    .navigation {
+        display: none;
+    }
   }
 
 /* === Header Banner === */
@@ -1295,3 +1302,23 @@ button.banner-slider-search-btn i {
      background: #fff !important;
      color: #161C26;
  }
+
+ .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    background-color: #fff;
+    color: #FC3C3C;
+    box-shadow: 0 0 10px #11161F;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .back-to-top:hover {
+    background-color: #000;
+  }

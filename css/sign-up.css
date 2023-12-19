@@ -1,8 +1,6 @@
-nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main-header .main-header-right .cart-icon i  {
-    color: #41464E;
-}
 .main-header {
-    box-shadow: 1px 0 16px 0 #ced1d55c;
+    background: #11161F;
+    padding-bottom: 30px;
 }
 .rating a.score {
     color: #8288ae;
@@ -164,6 +162,9 @@ nav.main-nav-menu ul li a, .main-header .main-header-right .search-icon i, .main
 
 
 @media only screen and (max-width: 800px) {
+    .main-header {
+        padding-bottom: 50px !important;
+    }
     .sign-block {
         padding: 210px 0 100px;
     }

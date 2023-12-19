@@ -57,7 +57,7 @@
         display: block;
     }
     .banner-slider-search ul li.form-inner-item {
-        width: 51vh;
+        width: 100vw;
     }
    .banner-slider-search select {
         border-bottom: 1px solid #d7d3d5;
@@ -271,7 +271,4 @@
     .video-shape2-animate {
         left: 280px;
     }
-
-
-
 }
